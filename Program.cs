@@ -13,6 +13,6 @@ int count = -n; // Счетчик
 
 while (count <= n)
 {
-    Console.Write(count + " ");
+    Console.Write(count + " "); // Write выведет все в одну строку, а WriteLine выведет все в один ряд(т.е. после каждого вывода будет переходить на новую строку)
     count = count + 1;
 }
